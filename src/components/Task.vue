@@ -15,7 +15,7 @@
 						icon
 						class="align-self-center mr-5"
 						color="deep-purple darken-1"
-						@click="$emit('task-deleted', task)"
+						@click="$emit('task-completed', task)"
 					>
 						<v-icon>mdi-check</v-icon>
 					</v-btn>

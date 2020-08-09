@@ -15,7 +15,7 @@
           v-for="(task, index) in tasks" 
           :key="index" 
           :task="task" 
-          @task-deleted="$emit('task-deleted', index)"
+          @task-completed="$emit('task-completed', task)"
         />
       </v-card-text>
       
